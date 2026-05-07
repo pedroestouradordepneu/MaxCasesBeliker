@@ -1,0 +1,18 @@
+@startuml
+
+class Filme {
+    id
+    titulo
+    genero
+    duracao
+}
+
+class Sessao {
+    id
+    horario
+    publico
+}
+
+Filme "1" -- "*" Sessao
+
+@enduml

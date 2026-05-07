@@ -1,0 +1,17 @@
+@startuml
+
+start
+
+:Funcionário seleciona a sessão;
+
+:Informa a quantidade de público;
+
+:Sistema valida os dados;
+
+:Sistema atualiza o banco de dados;
+
+:Sistema confirma o registro;
+
+stop
+
+@enduml

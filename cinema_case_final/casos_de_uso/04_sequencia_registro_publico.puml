@@ -1,0 +1,21 @@
+@startuml
+
+actor Funcionário
+
+participant View
+participant Controller
+participant Service
+participant Repository
+database SQLite
+
+Funcionário -> View : informar público
+
+View -> Controller : registrar_publico()
+
+Controller -> Service : registrar_publico()
+
+Service -> Repository : atualizar_publico()
+
+Repository -> SQLite : UPDATE sessoes
+
+@enduml

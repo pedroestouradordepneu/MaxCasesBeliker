@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+
+actor "Funcionário" as Funcionario
+actor "Espectador" as Espectador
+
+rectangle Sistema {
+
+    usecase "Cadastrar Filme" as UC1
+    usecase "Cadastrar Sessão" as UC2
+    usecase "Registrar Público" as UC3
+    usecase "Consultar Filmes" as UC4
+
+}
+
+Funcionario --> UC1
+Funcionario --> UC2
+Funcionario --> UC3
+
+Espectador --> UC4
+
+@enduml
