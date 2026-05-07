@@ -40,12 +40,16 @@ RF07 — O sistema deve utilizar arquitetura MVC com as camadas Controller, Serv
 ## 3. Caso de Uso Implementado
 
 O caso de uso implementado foi o registro de público em uma sessão de cinema.
+1 -
 
 <img width="323" height="319" alt="image" src="https://github.com/user-attachments/assets/e7019cfe-f605-4643-b34c-28eeb5909d7c" />
+2 -
 
 <img width="86" height="271" alt="image" src="https://github.com/user-attachments/assets/5aae1e56-00ea-4d3d-a939-55fcbf89f877" />
+3 - 
 
 <img width="235" height="358" alt="image" src="https://github.com/user-attachments/assets/3b265f76-eeb8-4d63-a962-bc975bd51404" />
+4 -
 
 <img width="707" height="336" alt="image" src="https://github.com/user-attachments/assets/0d5fbfa2-9e71-4c0f-9ce9-33439c4aea12" />
 
